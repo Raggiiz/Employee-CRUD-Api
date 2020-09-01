@@ -1,0 +1,24 @@
+{
+  "name": "employee-crud-api",
+  "version": "1.0.0",
+  "description": "CRUD Api made with Angular, Node.Js and Postgres.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raggiiz/Employee-CRUD-Api.git"
+  },
+  "keywords": [],
+  "author": "raggi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raggiiz/Employee-CRUD-Api/issues"
+  },
+  "homepage": "https://github.com/Raggiiz/Employee-CRUD-Api#readme",
+  "devDependencies": {
+    "eslint": "^7.8.0"
+  },
+  "dependencies": {}
+}
