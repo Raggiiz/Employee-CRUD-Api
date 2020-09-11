@@ -13,4 +13,7 @@ router.post('/employees', employeeController.createEmployee);
 //=> Rota responsável por listar os colaboradores : (GET): localhost://3000/api/employees
 router.get('/employees', employeeController.listAllEmployees);
 
+//=> Rota responsável por listar um colaborador específico : (GET): localhost://3000/api/employees
+router.get('/employees/:id', employeeController.FindEmployeeById);
+
 module.exports = router;
